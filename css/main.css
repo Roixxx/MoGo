@@ -13,7 +13,11 @@ body {
 }
 
 .header {
-
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .menu {
@@ -21,11 +25,25 @@ body {
 }
 
 .menu__logo {
-
+	display: inline-block;
+	font-weight: 700;
+	font-size: 30px;
+	color: #ffffff;
 }
 
 .menu__list {
+	display: flex;
+	justify-content: space-between;
+}
 
+.menu__item {
+
+}
+
+.menu__link {
+	font-size: 14px;
+	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .intro {
