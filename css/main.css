@@ -50,10 +50,6 @@ body {
 	min-width: 620px;
 }
 
-.menu__item {
-
-}
-
 .menu__link {
 	font-size: 14px;
 	color: #ffffff;
@@ -75,4 +71,42 @@ body {
 	background: url("../img/header/header-bg.jpg") center no-repeat;
 	background-size: cover;
 	background-color: #ecaa86;
+	padding-top: 230px;
+	box-sizing: border-box;
+}
+
+.intro__inner {
+	max-width: 860px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #ffffff;
+}
+
+.intro__subtitle {
+	font-family: "Kaushan Script", sans-serif;
+	font-size: 72px;
+	font-weight: 400;
+}
+
+.intro__title {
+	font-size: 150px;
+	font-weight: bold;
+	line-height: 0.94;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.intro__title::after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	margin-top: 55px;
+	width: 60px;
+	height: 3px;
+	background-color: #fff;
+}
+
+.intro__btn {
+	
 }
