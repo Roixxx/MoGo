@@ -97,7 +97,7 @@ body {
 	margin-top: 20px;
 }
 
-.intro__title::after {
+.decoration-line::after {
 	content: "";
 	display: block;
 	margin: 0 auto;
