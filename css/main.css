@@ -35,6 +35,13 @@ body {
 	font-weight: 700;
 	font-size: 30px;
 	color: #ffffff;
+	align-self: flex-start;
+	margin-top: 17px;
+	transition: border 0.3s;
+}
+
+.menu__logo:hover {
+	color: #f8d65e;
 }
 
 .menu__list {
@@ -55,9 +62,9 @@ body {
 }
 
 .menu__link:hover {
-	color: #f4bf87;
+	color: #f8d65e;
 	padding-bottom: 10px;
-	border-bottom: 3px solid #fce38a;
+	border-bottom: 3px solid #f8d65e;
 }
 
 /****** INTRO *******/
