@@ -101,12 +101,81 @@ body {
 	content: "";
 	display: block;
 	margin: 0 auto;
-	margin-top: 55px;
+	margin-top: 30px;
 	width: 60px;
 	height: 3px;
+	background-color: #f38181;
+}
+
+.intro__title.decoration-line::after {
 	background-color: #fff;
+	margin-top: 55px;
 }
 
 .intro__btn {
-	
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 6px 0;
+	width: 154px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	border: 3px solid #fff;
+	transition: border 0.3s;	
+}
+
+.intro__btn:hover {
+	border-color: #eaff00;
+}
+
+/****** section-header *******/
+
+.section-header {
+	max-width: 950px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	color: #333333;
+}
+
+.section-header__subtitle {
+	font-family: "Kaushan Script", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+
+}
+
+.section-header__title {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+
+.section-header__paragraph {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #999999;
+	margin-top: 41px;
+}
+
+/****** ABOUT *******/
+
+.about {
+	padding-top: 85px;
+	padding-bottom: 110px;
+}
+
+.about__content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+
+.about__item {
+	width: 380px;
+	height: 250px;
 }
