@@ -8,8 +8,10 @@ body {
 
 .container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1230px;
+	padding: 0 15px;
 	margin: 0 auto;
+	box-sizing: border-box;
 }
 
 /******* HEADER *******/
@@ -166,16 +168,18 @@ body {
 
 .about {
 	padding-top: 85px;
-	padding-bottom: 110px;
+	padding-bottom: 90px;
 }
 
 .about__content {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 100px;
+	flex-wrap: wrap;
 }
 
 .about__item {
 	width: 380px;
 	height: 250px;
+	margin-bottom: 20px;
 }
