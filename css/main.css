@@ -220,3 +220,23 @@ body {
 	transform: translate3d(0, -50%, 0);
 	opacity: 0;
 }
+
+/****** statistics *******/
+
+.statistics {
+	background-color: #95e1d3;
+}
+
+.statistics__list {
+	display: flex;
+}
+
+.statistics__item {
+	border-left: 1px solid #b5eae0;
+	width: 20%;
+	height: 270px;
+}
+
+.statistics__item:last-child {
+	border-right: 1px solid #b5eae0;
+}
