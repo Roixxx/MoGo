@@ -235,10 +235,8 @@ body {
 .statistics__item {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-
+	justify-content: center;
 	border-left: 1px solid #b5eae0;
 	width: 20%;
 	height: 270px;
