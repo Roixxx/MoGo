@@ -225,6 +225,7 @@ body {
 
 .statistics {
 	background-color: #95e1d3;
+	color: #fff;
 }
 
 .statistics__list {
@@ -232,6 +233,12 @@ body {
 }
 
 .statistics__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+
 	border-left: 1px solid #b5eae0;
 	width: 20%;
 	height: 270px;
@@ -239,4 +246,14 @@ body {
 
 .statistics__item:last-child {
 	border-right: 1px solid #b5eae0;
+}
+
+.statistics__number {
+	font-weight: 700;
+	font-size: 72px;
+}
+
+.statistics__text {
+	font-size: 14px;
+	text-transform: uppercase;
 }
