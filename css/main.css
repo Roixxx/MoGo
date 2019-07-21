@@ -255,3 +255,30 @@ body {
 	font-size: 14px;
 	text-transform: uppercase;
 }
+
+/****** SERVICE *******/
+
+.service {
+	padding-top: 100px;
+}
+
+.service__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service__item {
+	width: 33.333333%;
+}
+
+.service__title {
+	font-size: 14px;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.service__text {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	color: #999;
+}
