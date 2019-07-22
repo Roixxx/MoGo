@@ -264,21 +264,71 @@ body {
 
 .service__list {
 	display: flex;
+	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-top: 14px;
 }
 
 .service__item {
-	width: 33.333333%;
+	position: relative;
+	width: 280px;
+	margin: 44px 0 50px 0;
+	padding-left: 88px;
+	padding-right: 30px;
+}
+
+.service__item::before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: url(../img/service/css_sprites.png) no-repeat;
+	top: 5px;
+	left: 28px;
+	width: 32px;
+	height: 32px;
 }
 
 .service__title {
 	font-size: 14px;
+	font-weight: 400;
 	color: #333;
 	text-transform: uppercase;
+	margin-bottom: 8px;
 }
 
 .service__text {
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 	color: #999;
+}
+
+.service__line {
+	width: 100%;
+	background-color: #e5e5e5;
+}
+
+/****** SERVICE ICONS*******/
+
+.service__icon_alarm::before {
+	background-position: -1px -31px;
+}
+
+.service__icon_line::before {
+	background-position: -1px -131px;
+}
+
+.service__icon_computer::before  {
+	background-position: -1px 1px;
+}
+
+.service__icon_book::before  {
+	background-position: -1px -97px;
+}
+
+.service__icon_home::before  {
+	background-position: -1px -64px;
+}
+
+.service__icon_square::before  {
+	background-position: -1px -165px;
 }
