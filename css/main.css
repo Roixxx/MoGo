@@ -260,6 +260,7 @@ body {
 
 .service {
 	padding-top: 100px;
+	padding-bottom: 70px;
 }
 
 .service__list {
@@ -331,4 +332,40 @@ body {
 
 .service__icon_square::before  {
 	background-position: -1px -165px;
+}
+
+/****** features *******/
+
+.features {
+	height: 850px;
+	background: url(../img/feature/feature-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 102px;
+	box-sizing: border-box;
+}
+
+.devices {
+	max-width: 600px;
+	width: 100%;
+	height: 582px;
+	margin: 0 auto;
+	margin-top: 45px;
+	position: relative;
+}
+
+.devices__display {
+	background: url("../img/feature/display.png") no-repeat;
+	height: 582px;
+	width: 477px;
+	position: absolute;
+}
+
+.devices__phone {
+	background: url("../img/feature/phone.png") no-repeat;
+	width: 199px;
+	height: 430px;
+	position: absolute;
+	right: 0;
+	bottom: -10%;
 }
