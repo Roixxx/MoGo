@@ -373,5 +373,48 @@ body {
 /****** service2 *******/
 
 .service2 {
+	padding-top: 105px;
+}
 
+.wedo {
+	display: flex;
+	margin-top: 90px;
+}
+
+.wedo__item {
+	width: 50%;
+}
+
+.accordion {
+
+}
+
+.accordion__item {
+	border: 1px solid #e5e5e5;
+}
+
+.accordion__header {
+	border-bottom: 1px solid #e5e5e5;
+	height: 60px;
+	padding: 20px 0 20px 60px;
+	box-sizing: border-box;
+}
+
+.accordion__title {
+	color: #333;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.accordion__content {
+	padding: 15px 57px 20px 20px;
+}
+
+.accordion__text {
+	color: #999;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 400;
 }
