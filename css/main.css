@@ -374,6 +374,7 @@ body {
 
 .service2 {
 	padding-top: 105px;
+	padding-bottom: 110px;
 }
 
 .wedo {
@@ -385,14 +386,20 @@ body {
 	width: 50%;
 }
 
-.accordion {
-
-}
-
 .accordion__item {
 	border: 1px solid #e5e5e5;
 	margin-bottom: 10px;
 }
+
+.accordion__item.active 
+.accordion__content {
+	display: block;
+}
+
+.accordion__item.active
+.accordion__header::after {
+	transform: translateY(-15%) rotate(-45deg);
+} 
 
 .accordion__header {
 	border-bottom: 1px solid #e5e5e5;
@@ -400,6 +407,20 @@ body {
 	padding: 20px 0 20px 60px;
 	box-sizing: border-box;
 	position: relative;
+	cursor: pointer;
+}
+
+.accordion__header::after {
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-top: 3px solid #ccc;
+	border-right: 3px solid #ccc;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%) rotate(135deg);
 }
 
 .accordion__icon {
@@ -431,6 +452,7 @@ body {
 }
 
 .accordion__content {
+	display: none;
 	padding: 15px 57px 20px 20px;
 }
 
