@@ -464,3 +464,23 @@ body {
 	font-weight: 400;
 }
 
+/****** quote *******/
+
+.quote {
+	background-color: #f8f8f8;
+	padding: 70px 0;
+}
+
+.quote__inner {
+	display: flex;
+}
+
+.quote__img {
+	display: block;
+	border: 3px solid #95e1d3;
+	padding: 42px;
+}
+
+.qoute__text {
+	margin: 0;
+}
