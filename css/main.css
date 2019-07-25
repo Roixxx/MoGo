@@ -391,6 +391,7 @@ body {
 
 .accordion__item {
 	border: 1px solid #e5e5e5;
+	margin-bottom: 10px;
 }
 
 .accordion__header {
@@ -398,6 +399,28 @@ body {
 	height: 60px;
 	padding: 20px 0 20px 60px;
 	box-sizing: border-box;
+	position: relative;
+}
+
+.accordion__icon {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 33px;
+	width: 33px;
+	background-repeat: no-repeat;
+}
+
+.accordion__icon--photo {
+	background-image: url(../img/service2/photo-icon.png);
+}
+
+.accordion__icon--equalizer {
+	background-image: url(../img/service2/equalizer-icon.png);
+}
+
+.accordion__icon--circle {
+	background-image: url(../img/service2/circle-icon.png);	
 }
 
 .accordion__title {
@@ -418,3 +441,4 @@ body {
 	font-style: italic;
 	font-weight: 400;
 }
+
