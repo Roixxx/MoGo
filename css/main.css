@@ -471,6 +471,10 @@ body {
 	padding: 70px 0;
 }
 
+.container--quote {
+	position: relative;
+}
+
 .quote__item {
 	display: flex;
 	flex-direction: column;
@@ -500,17 +504,41 @@ body {
 	font-family: "Kaushan Script";
 	font-size: 24px;
 	position: relative;
-	padding-left: 70px;
 	line-height: 24px;
 }
 
 .quote__author::before {
 	content: "";
 	display: inline-block;
-	position: absolute;
-	top: 50%;
-	left: 0;
+	vertical-align: middle;
+	margin-right: 10px;
 	width: 60px;
 	height: 3px;
 	background-color: #f38181;
+}
+
+.quote__btn {
+	font-size: 0;
+	color: transparent;
+	position: absolute;
+	top: 50%;
+}
+
+.quote__btn::after {
+	content: "";
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-top: 3px solid #ccc;
+	border-left: 3px solid #ccc;
+}
+
+.quote__btn--prev {
+	left: 0;
+	transform: rotate(-45deg);
+}
+
+.quote__btn--next {
+	right: 0;
+	transform: rotate(135deg);
 }
