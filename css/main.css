@@ -471,16 +471,46 @@ body {
 	padding: 70px 0;
 }
 
-.quote__inner {
-	display: flex;
+.quote__item {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
 }
 
 .quote__img {
 	display: block;
 	border: 3px solid #95e1d3;
 	padding: 42px;
+	position: absolute;
 }
 
 .qoute__text {
 	margin: 0;
+	color: #999;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1.5;
+	padding-left: 210px;
+}
+
+.quote__author {
+	color: #333;
+	font-family: "Kaushan Script";
+	font-size: 24px;
+	padding-left: 270px;
+	position: relative;
+}
+
+.quote__author::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 20%;
+	display: inline-block;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
 }
