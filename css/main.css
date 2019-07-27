@@ -542,3 +542,76 @@ body {
 	right: 0;
 	transform: rotate(135deg);
 }
+
+/****** TEAM *******/
+
+.team {
+	padding-top: 90px;
+	padding-bottom: 115px;
+}
+
+.team__list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+.team__item {
+
+}
+
+.team__img-container {
+	background-color: red;
+}
+
+.team__img {
+	display: block;
+	width: 380px;
+	height: 470px;
+	transition: transform 0.3s;	
+}
+
+.team__img:hover {
+	transform: translate3d(-10px, -10px, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team__name {
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+
+.team__prof {
+	color: #999;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+}
