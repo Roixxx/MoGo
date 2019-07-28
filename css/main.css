@@ -612,3 +612,14 @@ body {
 	font-weight: 300;
 	font-style: italic;
 }
+
+.card__social-list {
+	
+}
+
+.card__link {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	background-color: #fce38a;
+}
