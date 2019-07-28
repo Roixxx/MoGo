@@ -565,8 +565,6 @@ body {
 
 
 
-
-
 .team__card {
 
 }
@@ -580,7 +578,8 @@ body {
 	transition: 0.3s;
 }
 
-.team__card-gradient:hover::after {
+.team__card-gradient:after {
+	display: none;
 	content: "";
   	position: absolute;
   	width: 100%;
@@ -601,6 +600,9 @@ body {
 	transform: translate3d(-10px, -10px, 0);
 }
 
+.team__card-background:hover .team__card-gradient:after  {
+	display: block;
+}
 
 
 
