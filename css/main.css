@@ -621,18 +621,20 @@ body {
 	z-index: 10;
 }
 
-.card__link {
+.card__btn {
 	margin-left: 1px;
 	width: 55px;
 	height: 55px;
 	background-color: #fce38a;
+	transition: background 0.3s;
 }
 
-.card__link:hover {
-	background-color: ##f38181;
+.card__btn:hover {
+	background-color: #f38181;
 }
 
-.card__link a {
+.card__link {
 	display: block;
 	height: 100%;
+	font-size: 0px;
 }
