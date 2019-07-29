@@ -614,12 +614,25 @@ body {
 }
 
 .card__social-list {
-	
+	display: flex;
+	position: absolute;
+	top: 44%;
+	left: 20%;
+	z-index: 10;
 }
 
 .card__link {
-	display: inline-block;
+	margin-left: 1px;
 	width: 55px;
 	height: 55px;
 	background-color: #fce38a;
+}
+
+.card__link:hover {
+	background-color: ##f38181;
+}
+
+.card__link a {
+	display: block;
+	height: 100%;
 }
