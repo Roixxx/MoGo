@@ -653,3 +653,16 @@ body {
 .card__btn:hover .card__icon {
 	color: #ffffff;
 }
+
+/****** LOGOS *******/
+
+.partners {
+	background-color: #f6f6f6;
+}
+
+.partners__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 250px;
+}
