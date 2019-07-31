@@ -597,6 +597,10 @@ body {
 	display: block;
 }
 
+.card__background:hover .card__social-list {
+	display: flex;
+}
+
 .card__name {
 	color: #333;
 	font-size: 14px;
@@ -614,7 +618,7 @@ body {
 }
 
 .card__social-list {
-	display: flex;
+	display: none;
 	position: absolute;
 	top: 44%;
 	left: 20%;
@@ -634,7 +638,18 @@ body {
 }
 
 .card__link {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 100%;
-	font-size: 0px;
+}
+
+.card__icon {
+	font-size: 27px;
+	color: #f38181;
+	transition: color 0.3s;
+}
+
+.card__btn:hover .card__icon {
+	color: #ffffff;
 }
