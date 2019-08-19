@@ -684,7 +684,6 @@ body {
 	max-width: 480px;
 	height: 390px;
 	position: relative;
-	transition: background 11s;
 }
 
 .work__item::after {
@@ -707,6 +706,7 @@ body {
 	display: block;
 	width: 100%;
 	height: 100%;
+	transition: opacity 2s linear;
 }
 
 .work__item--double {
@@ -715,10 +715,25 @@ body {
 }
 
 .work__info {
+	display: none;
 	position: absolute;
-	top: 0;
-	left: 0;
+	text-align: center;
+	top: 40%;
+	left: 50%;
 	z-index: 1;
+	transform: translateX(-50%);
+}
+
+.work__item:hover .work__info {
+	display: block;
+}
+
+.work__icon {
+	background: url(../img/work/picture-icon.png) no-repeat;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
 .work__title {
@@ -729,7 +744,7 @@ body {
 
 .work__text {
 	color: #fff;
-	font-family: "Roboto - Light Italic";
+	font-family: "Roboto";
 	font-weight: 300;
 	font-style: italic;
 }
