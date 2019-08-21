@@ -782,15 +782,19 @@ body {
 /****** clients *******/
 
 .clients {
-	height: 830px;
 	box-sizing: border-box;
+	background: url(../img/clients/clients-bg.jpg) no-repeat;
+	background-size: cover;
 	background-color: #f6f6f6;
 	padding-top: 105px;
+	padding-bottom: 60px;
 }
 
 .clients__list {
 	padding-top: 80px;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 
 }
 
@@ -800,6 +804,7 @@ body {
 	padding-left: 140px;
 	padding-right: 40px;
 	padding-top: 6px;
+	margin-left: 40px;
 	position: relative;
 }
 
