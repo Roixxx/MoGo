@@ -856,9 +856,37 @@ body {
 
 }
 
-.blog__img {
+.blog__image {
+	position: relative;
 	width: 380px;
 	height: 240px;
+}
+
+.blog__date {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 70px;
+	position: absolute;
+	bottom: 10px;
+	left: -10px;
+	background-color: #95e1d3;
+	color: #fff;
+}
+
+.blog__date--number {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 1;
+}
+
+.blog__date--month {
+	font-weight: normal;
+	font-size: 15px;
+	font-style: italic;
+	font-family: "Roboto", sans-serif;
 }
 
 .blog__title {
@@ -889,8 +917,12 @@ body {
 .blog__views {
 	padding-left: 25px;
 	margin-right: 15px;
+	background: url(../img/blog/view-icon.png) no-repeat;
+	background-position: center left;
 }
 
 .blog__comments {
 	padding-left: 25px;
+	background: url(../img/blog/comment-icon.png) no-repeat;
+	background-position: center left;
 }
