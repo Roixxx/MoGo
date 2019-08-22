@@ -926,3 +926,33 @@ body {
 	background: url(../img/blog/comment-icon.png) no-repeat;
 	background-position: center left;
 }
+
+/****** footer *******/ 
+
+.footer {
+	padding-top: 65px;
+	background-color: #f8f8f8;
+}
+
+.footer__inner {
+
+}
+
+.footer__social {
+	
+}
+
+.footer__logo {
+	color: #cccccc;
+	font-size: 46px;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+
+.footer__text {
+	width: 466px;
+	color: #999999;
+	font-family: Roboto;
+	font-size: 15px;
+	margin-bottom: 45px;
+}
