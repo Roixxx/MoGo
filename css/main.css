@@ -983,12 +983,33 @@ body {
 	color: #999999;
 	font-family: "Roboto", sans-serif;
 	font-style: italic;
+	display: inline;
 }
 
 .footer-socials {
-
+	display: inline-block;
+	cursor: default;
 }
 
 .footer-socials__item {
-	
+	display: inline-block;
+	width: 30px;
+	height: 25px;
+	text-align: center;
+	margin-right: 3px;
+}
+
+.footer-socials__link {
+	display: block;
+}
+
+.footer-socials__link i {
+	display: block;
+	font-size: 25px;
+	color: #95e1d3;
+	transition: color 0.3s;
+}
+
+.footer-socials__link i:hover {
+	color: #417d72;
 }
