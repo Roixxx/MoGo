@@ -930,14 +930,16 @@ body {
 /****** footer *******/ 
 
 .footer {
-	padding-top: 65px;
+	padding-top: 70px;
 	background-color: #f8f8f8;
 	height: 1000px;
 }
 
 .footer__inner {
-
+	display: flex;
 }
+
+/****** footer info *******/ 
 
 .footer-info {
 	width: 480px;
@@ -946,6 +948,7 @@ body {
 .footer-info__logo {
 	color: #cccccc;
 	font-size: 46px;
+	line-height: 1;
 	font-weight: 700;
 	margin-bottom: 25px;
 }
@@ -1012,4 +1015,54 @@ body {
 
 .footer-socials__link i:hover {
 	color: #417d72;
+}
+
+/****** footer blogs *******/ 
+
+.footer-blogs {
+
+}
+
+.footer-blogs__title {
+	color: #333333;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+}
+
+.footer-blogs__list {
+
+}
+
+.footer-blogs__item {
+	box-sizing: border-box;
+	width: 345px;
+	height: 79px;
+	position: relative;
+	padding-left: 140px;
+	margin-bottom: 31px;
+}
+
+.footer-blogs__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 119px;
+	height: 79px;
+}
+
+.footer-blogs__text {
+	padding-top: 15px;
+	color: #333333;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.footer-blogs__data {
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: italic;
 }
