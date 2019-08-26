@@ -931,12 +931,13 @@ body {
 
 .footer {
 	padding-top: 70px;
+	padding-bottom: 40px;
 	background-color: #f8f8f8;
-	height: 1000px;
 }
 
 .footer__inner {
 	display: flex;
+	justify-content: space-between;
 }
 
 /****** footer info *******/ 
@@ -1020,7 +1021,7 @@ body {
 /****** footer blogs *******/ 
 
 .footer-blogs {
-
+	padding-right: 40px;
 }
 
 .footer-blogs__title {
@@ -1069,14 +1070,41 @@ body {
 
 /****** footer instagram *******/
 
-.footer-instagram {
+.footer-inst{
 
 }
 
-.footer-instagram__title {
+.footer-inst__title {
 	color: #333333;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 35px;
+}
+
+.footer-inst__list {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 270px;
+	height: 270px;
+}
+
+.footer-inst__item {
+	width: 88px;
+	height: 88px;
+}
+
+.footer-inst__link {
+	display: inline-block;
+	color: #333333;
+	font-family: "Roboto", sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	font-style: italic;
+	margin-top: 15px;
+}
+
+.footer-inst__link:hover {
+	text-decoration: underline;
 }
