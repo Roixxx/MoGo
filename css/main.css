@@ -892,18 +892,26 @@ body {
 .blog__title {
 	color: #333333;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 700;
 	text-transform: uppercase;
-	margin-top: 8px;
+	margin-top: 16px;
 	margin-bottom: 8px;
 }
 
 .blog__text {
-	color: #999999;
+	color: #333333;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #e5e5e5;
+}
+
+.blog__link:visited {
+	color: #333333;
+}
+
+.blog__link:hover {
+	text-decoration: underline;
 }
 
 .blog__statistics {
