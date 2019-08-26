@@ -1054,11 +1054,16 @@ body {
 }
 
 .footer-blogs__text {
+	display: inline-block;
 	padding-top: 15px;
 	color: #333333;
 	font-size: 12px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.footer-blogs__text:hover {
+	text-decoration: underline;
 }
 
 .footer-blogs__data {
