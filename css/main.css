@@ -559,10 +559,6 @@ body {
 	flex-wrap: wrap;
 }
 
-.card {
-
-}
-
 .card__background {
 	background-color: #95e1d3;
 }
@@ -1040,10 +1036,6 @@ body {
 	margin-bottom: 35px;
 }
 
-.footer-blogs__list {
-
-}
-
 .footer-blogs__item {
 	box-sizing: border-box;
 	width: 345px;
@@ -1083,10 +1075,6 @@ body {
 
 /****** footer instagram *******/
 
-.footer-inst{
-
-}
-
 .footer-inst__title {
 	color: #333333;
 	font-size: 14px;
@@ -1121,3 +1109,7 @@ body {
 .footer-inst__link:hover {
 	text-decoration: underline;
 }
+
+
+/****** media queries *******/
+
