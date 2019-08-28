@@ -813,6 +813,7 @@ body {
 	background: url(../img/clients/clients-bg.jpg) no-repeat;
 	background-size: cover;
 	background-color: #f6f6f6;
+	background-position: center;
 	padding-top: 105px;
 	padding-bottom: 60px;
 }
