@@ -1145,6 +1145,13 @@ body {
 
 /****** media queries *******/
 
+@media (max-width: 1440px) {	
+	/****** WORK *******/
+	.work__list {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
 @media (max-width: 1200px) {
 	/******* HEADER *******/
 	.intro__title {
@@ -1168,6 +1175,11 @@ body {
 		display: none;
 	}
 
-	/****** TEAM *******/
-
+	/****** WORK *******/
+	.work__list {
+		grid-template-columns: repeat(2, 1fr);
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 960px;
+	}
 }
