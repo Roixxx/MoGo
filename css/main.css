@@ -547,12 +547,13 @@ body {
 }
 
 .quote__btn::after {
-	content: "";
-	display: block;
-	width: 12px;
-	height: 12px;
-	border-top: 3px solid #ccc;
-	border-left: 3px solid #ccc;
+    content: "";
+    display: block;
+    margin: 0 20px;
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid #ccc;
+    border-left: 5px solid #ccc;
 }
 
 .quote__btn--prev {
@@ -569,15 +570,24 @@ body {
 
 .team {
 	padding-top: 90px;
-	padding-bottom: 115px;
+	padding-bottom: 85px;
 }
 
 .team__list {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin-top: 85px;
 	text-align: center;
 	flex-wrap: wrap;
+}
+
+.card {
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.card:last-child {
+	margin-right: 0;
 }
 
 .card__background {
@@ -1157,4 +1167,7 @@ body {
 	.service__line {
 		display: none;
 	}
+
+	/****** TEAM *******/
+
 }
