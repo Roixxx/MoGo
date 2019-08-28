@@ -392,8 +392,19 @@ body {
 	justify-content: center;
 }
 
-.wedo__item {
+.wedo__left {
+	max-width: 580px;
 	width: 50%;
+	margin-right: 30px;
+}
+
+.wedo__right {
+	max-width: 600px;
+	width: 50%;
+}
+
+.wedo__img {
+	width: 100%;
 }
 
 .accordion__item {
