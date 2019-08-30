@@ -700,7 +700,7 @@ body {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	align-items: center;
-	height: 250px;
+	padding: 65px 0px;
 }
 
 
@@ -1255,6 +1255,26 @@ body {
 
 	.wedo__right {
 		width: 100%;
+	}
+
+	/****** QUOTE *******/
+	.qoute__text {
+		font-size: 20px;
+	}
+
+	.quote__item {
+		padding-left: 170px;
+	}
+}
+
+@media (max-width: 640px) {
+	/****** WORK *******/
+	.work__list {
+		display: block;
+	}
+
+	.work__item {
+		margin: 0 auto;
 	}
 }
 
