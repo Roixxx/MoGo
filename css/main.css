@@ -368,6 +368,7 @@ body {
 .devices__display {
 	background: url("../img/feature/display.png") no-repeat;
 	background-size: contain;
+	background-position: bottom;
 	height: 582px;
 	max-width: 477px;
 	width: 100%;
@@ -376,6 +377,8 @@ body {
 
 .devices__phone {
 	background: url("../img/feature/phone.png") no-repeat;
+	background-size: contain;
+    background-position: bottom;
 	width: 199px;
 	height: 430px;
 	position: absolute;
@@ -1248,5 +1251,10 @@ body {
 	
 	.intro__subtitle {
 		font-size: 45px;
+	}
+
+	/****** FEATURES *******/
+	.devices__phone {
+		width: 155px;
 	}
 }
