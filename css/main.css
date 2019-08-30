@@ -1241,6 +1241,21 @@ body {
 	.statistics__item {
 		height: 210px;
 	}
+
+	/****** WEDO *******/
+	.wedo {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.wedo__left {
+		margin-right: 0px;
+		width: 100%;
+	}
+
+	.wedo__right {
+		width: 100%;
+	}
 }
 
 @media (max-width: 465px) {	
