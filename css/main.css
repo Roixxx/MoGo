@@ -795,7 +795,7 @@ body {
 
 .testimonial__item {
 	background: none;
-	padding: 0;
+	padding: 0 25px;
 	max-width: 1000px;
 	height: auto;
 	display: flex;
@@ -1264,6 +1264,11 @@ body {
 
 	.quote__item {
 		padding-left: 170px;
+	}
+
+	/****** TESTIMONIAL *******/
+	.testimonial__item {
+		padding-left: 25px;
 	}
 }
 
