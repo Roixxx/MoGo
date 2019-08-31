@@ -885,24 +885,24 @@ body {
 .blog__list {
 	margin-top: 47px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .blog__item {
-	width: 380px;
-	margin-right: 30px;
+	width: 31.7%;
 	margin-bottom: 30px;
-}
-
-.blog__item:last-child {
-	margin-right: 0px;
 }
 
 .blog__image {
 	position: relative;
-	width: 380px;
-	height: 240px;
+	max-width: 100%;
+	height: auto;
+}
+
+.blog__image img {
+	max-width: 100%;
+	height: auto;
 }
 
 .blog__date {
@@ -1269,6 +1269,17 @@ body {
 	/****** TESTIMONIAL *******/
 	.testimonial__item {
 		padding-left: 25px;
+	}
+
+	/****** BLOG *******/
+	.blog__list {
+		max-width: 380px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.blog__item {
+		width: 100%;
 	}
 }
 
