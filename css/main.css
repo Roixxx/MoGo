@@ -982,7 +982,6 @@ body {
 
 .footer {
 	padding-top: 70px;
-	padding-bottom: 40px;
 	background-color: #f8f8f8;
 }
 
@@ -996,6 +995,7 @@ body {
 
 .footer-info {
 	width: 480px;
+	margin-bottom: 40px;
 }
 
 .footer-info__logo {
@@ -1075,6 +1075,7 @@ body {
 
 .footer-blogs {
 	padding-right: 40px;
+	margin-bottom: 40px;
 }
 
 .footer-blogs__title {
@@ -1123,6 +1124,10 @@ body {
 }
 
 /****** footer instagram *******/
+
+.footer-inst {
+	margin-bottom: 40px;
+}
 
 .footer-inst__title {
 	color: #333333;
