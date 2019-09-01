@@ -1262,6 +1262,19 @@ body {
 		width: 100%;
 	}
 
+	/****** TEAM *******/
+	.team__list {
+		display: block;
+		max-width: 380px;
+		margin: 0 auto;
+		margin-top: ;
+	}
+
+	.card {
+		width: 100%;
+	}
+
+
 	/****** QUOTE *******/
 	.qoute__text {
 		font-size: 20px;
