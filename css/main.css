@@ -582,15 +582,16 @@ body {
 
 .team__list {
 	display: flex;
-	justify-content: center;
-	margin-top: 85px;
+	justify-content: space-between;
+	margin: 85px -15px 0;
 	text-align: center;
 	flex-wrap: wrap;
 }
 
 .card {
-	margin-right: 30px;
+	width: 33.33333%;
 	margin-bottom: 30px;
+
 }
 
 .card:last-child {
