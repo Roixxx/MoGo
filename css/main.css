@@ -582,20 +582,17 @@ body {
 
 .team__list {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin-top: 85px;
 	text-align: center;
 	flex-wrap: wrap;
 }
 
 .card {
-	margin-right: 30px;
 	margin-bottom: 30px;
+	width: 31.7%;
 }
 
-.card:last-child {
-	margin-right: 0;
-}
 
 .card__background {
 	background-color: #95e1d3;
@@ -620,8 +617,8 @@ body {
 
 .card__img {
 	display: block;
-	width: 380px;
-	height: 470px;
+	width: 100%;
+	height: auto;
 }
 
 .card__background:hover .card__gradient {
@@ -634,6 +631,8 @@ body {
 
 .card__background:hover .card__social-list {
 	display: flex;
+	width: 100%;
+	justify-content: center;
 }
 
 .card__name {
@@ -655,9 +654,10 @@ body {
 .card__social-list {
 	display: none;
 	position: absolute;
-	top: 44%;
-	left: 20%;
-	z-index: 10;
+    top: 50%;
+    left: 0;
+    z-index: 10;
+    transform: translate3d(0, -50%, 0);
 }
 
 .card__btn {
