@@ -988,7 +988,6 @@ body {
 .footer__inner {
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 /****** footer info *******/ 
@@ -1074,7 +1073,8 @@ body {
 /****** footer blogs *******/ 
 
 .footer-blogs {
-	padding-right: 40px;
+	max-width: 380px;
+	width: 100%;
 	margin-bottom: 40px;
 }
 
@@ -1213,11 +1213,6 @@ body {
 		margin-right: auto;
 		max-width: 960px;
 	}
-
-	/****** FOOTER *******/
-	.footer__inner {
-		justify-content: center;
-	}
 }
 
 @media (max-width: 830px) {
@@ -1341,5 +1336,16 @@ body {
 	.quote__item {
 		background: none;
 		padding: 0 30px;
+	}
+}
+
+@media (max-width: 360px) {
+	/******* HEADER *******/
+	.intro__title {
+		font-size: 45px;
+	}
+		
+	.intro__subtitle {
+		font-size: 35px;
 	}
 }
