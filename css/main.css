@@ -987,14 +987,16 @@ body {
 
 .footer__inner {
 	display: flex;
+	margin: 0 -15px;
 	justify-content: space-between;
 }
 
 /****** footer info *******/ 
 
 .footer-info {
-	width: 480px;
 	margin-bottom: 40px;
+	padding: 0 15px;
+	width: 40%;
 }
 
 .footer-info__logo {
@@ -1073,9 +1075,10 @@ body {
 /****** footer blogs *******/ 
 
 .footer-blogs {
-	max-width: 380px;
-	width: 100%;
+	width: 380px;
 	margin-bottom: 40px;
+	padding: 0 15px;
+	width: 29%;
 }
 
 .footer-blogs__title {
@@ -1087,9 +1090,9 @@ body {
 }
 
 .footer-blogs__item {
+	display: flex;
+	flex-direction: column;
 	box-sizing: border-box;
-	width: 345px;
-	height: 79px;
 	position: relative;
 	padding-left: 140px;
 	margin-bottom: 31px;
@@ -1105,7 +1108,6 @@ body {
 
 .footer-blogs__text {
 	display: inline-block;
-	padding-top: 15px;
 	color: #333333;
 	font-size: 12px;
 	font-weight: 700;
@@ -1127,6 +1129,8 @@ body {
 
 .footer-inst {
 	margin-bottom: 40px;
+	padding: 0 15px;
+	width: 22%;
 }
 
 .footer-inst__title {
@@ -1141,13 +1145,17 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	width: 270px;
-	height: 270px;
 }
 
 .footer-inst__item {
-	width: 88px;
-	height: 88px;
+	width: 33%;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-inst__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .footer-inst__link {
@@ -1225,6 +1233,20 @@ body {
 	.about__item:first-child {
 		margin-right: 0px;
 	}
+
+	/******* FOOTER *******/
+	.footer__inner {
+		flex-wrap: wrap;
+	}
+
+	.footer-info {
+		width: 100%;
+	}
+
+	.footer-blogs, 
+	.footer-inst {
+		width: 45%;
+	}
 }
 
 @media (max-width: 768px) {	
@@ -1262,7 +1284,6 @@ body {
 		display: block;
 		max-width: 380px;
 		margin: 0 auto;
-		margin-top: ;
 	}
 
 	.card {
