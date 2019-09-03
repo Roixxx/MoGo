@@ -1284,6 +1284,7 @@ body {
 		display: block;
 		max-width: 380px;
 		margin: 0 auto;
+		margin-top: 40px;
 	}
 
 	.card {
@@ -1360,16 +1361,6 @@ body {
 		font-size: 45px;
 	}
 
-	/******* ABOUT *******/
-	.about {
-		padding: 40px 0;
-	}
-	
-	.about__content {
-		margin-top: 50px;
-	}
-	
-
 	/****** FEATURES *******/
 	.devices__phone {
 		width: 155px;
@@ -1392,6 +1383,35 @@ body {
 		background: none;
 		padding: 0 30px;
 	}
+
+	/******* OTHER *******/
+	.about,
+	.service,
+	.service2,
+	.quote,
+	.team,
+	.partners__list,
+	.work,
+	.clients,
+	.blog {
+		padding: 50px 0;
+	}
+	
+	.about__content,
+	.wedo,
+	.work__list {
+		margin-top: 50px;
+	}
+
+	.features,
+	.clients__list {
+		padding-top: 50px;
+	}
+
+	.devices {
+		margin-top: 0px;
+	}
+
 }
 
 @media (max-width: 360px) {
