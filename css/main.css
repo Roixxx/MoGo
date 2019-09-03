@@ -1290,7 +1290,6 @@ body {
 		width: 100%;
 	}
 
-
 	/****** QUOTE *******/
 	.qoute__text {
 		font-size: 20px;
@@ -1336,6 +1335,19 @@ body {
 	.testimonial__item {
 		flex-direction: column;
 	}
+
+	/****** statistics *******/
+	.statistics__list {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.statistics__item,
+	.statistics__item:last-child {
+		border: none;
+		width: 33.33333%;
+		height: 150px;
+	}
 }
 
 @media (max-width: 465px) {	
@@ -1348,9 +1360,31 @@ body {
 		font-size: 45px;
 	}
 
+	/******* ABOUT *******/
+	.about {
+		padding: 40px 0;
+	}
+	
+	.about__content {
+		margin-top: 50px;
+	}
+	
+
 	/****** FEATURES *******/
 	.devices__phone {
 		width: 155px;
+	}
+
+	/****** statistics *******/
+	.statistics__list {
+		flex-direction: column;
+	}
+
+	.statistics__item,
+	.statistics__item:last-child {
+		border: none;
+		width: 100%;
+		height: 105px;
 	}
 
 	/****** QUOTE *******/
