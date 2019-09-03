@@ -1145,6 +1145,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	max-width: 272px;
 }
 
 .footer-inst__item {
@@ -1349,6 +1350,13 @@ body {
 		width: 33.33333%;
 		height: 150px;
 	}
+
+	/****** FOOTER *******/
+	.footer-blogs,
+	.footer-inst {
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 465px) {	
