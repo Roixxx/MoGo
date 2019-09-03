@@ -1403,19 +1403,13 @@ body {
 		margin-top: 50px;
 	}
 
-	.features,
 	.clients__list {
 		padding-top: 50px;
 	}
-
-	.devices {
-		margin-top: 0px;
-	}
-
 }
 
 @media (max-width: 360px) {
-	/******* HEADER *******/
+
 	.intro__title {
 		font-size: 45px;
 	}
