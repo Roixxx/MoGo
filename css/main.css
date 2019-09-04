@@ -349,7 +349,6 @@ body {
 /****** features *******/
 
 .features {
-	height: 850px;
 	background: url(../img/feature/feature-bg.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -370,7 +369,7 @@ body {
 	background: url("../img/feature/display.png") no-repeat;
 	background-size: contain;
 	background-position: bottom;
-	height: 582px;
+	height: 100%;
 	max-width: 477px;
 	width: 100%;
 	position: absolute;
@@ -381,7 +380,7 @@ body {
 	background-size: contain;
     background-position: bottom;
 	width: 199px;
-	height: 430px;
+	height: 100%;
 	position: absolute;
 	right: 0;
 	bottom: -10%;
@@ -1370,6 +1369,15 @@ body {
 	}
 
 	/****** FEATURES *******/
+	.features {
+		padding-top: 40px;
+	}
+	
+	.devices {
+		margin-top: 0px;
+		height: 400px;
+	}
+
 	.devices__phone {
 		width: 155px;
 	}
@@ -1425,5 +1433,10 @@ body {
 		
 	.intro__subtitle {
 		font-size: 35px;
+	}
+
+	/****** FEATURES *******/
+	.devices__phone {
+		width: 120px;
 	}
 }
