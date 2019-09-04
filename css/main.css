@@ -509,6 +509,7 @@ body {
 	justify-content: space-between;
 	max-width: 960px;
 	width: 100%;
+    min-height: 150px;
 	margin: 0 auto;
 	padding-left: 210px;
 	box-sizing: border-box;
