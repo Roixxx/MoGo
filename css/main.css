@@ -836,10 +836,11 @@ body {
 }
 
 .clients__item {
-	max-width: 375px;
-	width: 100%;
+	max-width: 515px;
+    width: 50%;
 	padding: 6px 0 65px 140px;
 	position: relative;
+	box-sizing: border-box;
 }
 
 .clients__photo {
@@ -1233,6 +1234,16 @@ body {
 	.about__item:first-child {
 		margin-right: 0px;
 	}
+
+	/******* CLIENTS *******/
+	.clients__list {
+		justify-content: center;
+	}
+
+	.clients__item {
+		width: 100%;
+	}
+
 
 	/******* FOOTER *******/
 	.footer__inner {
