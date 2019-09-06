@@ -29,6 +29,7 @@ body {
 	position: fixed;
 	top: 0;
 	right: 0;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1)
 }
 
 .header--fixed .menu {
@@ -84,12 +85,17 @@ body {
 /******* MENU TOGGLE *******/
 
 .menu-toggle {
+	display: none;
 	position: absolute;
 	top: 20px;
 	right: 25px;
 	z-index: 1;
 	width: 30px;
 	padding: 10px 0;
+	font-size: 0;
+	border: 0;
+	background: none;
+	cursor: pointer;
 }
 
 .menu-toggle__item {
@@ -1319,9 +1325,32 @@ body {
 }
 
 @media (max-width: 768px) {	
-	/******* HEADER *******/
+	/******* HEADER MENU *******/
 	.menu__list {
 		display: none;
+		position: absolute;
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		padding-bottom: 10px;
+		top: 100%;
+		left: 0;
+		background-color: #e78d84;
+	}
+
+	.menu__item {
+		display: block;
+		padding: 10px 20px;
+		max-height: 42px;
+		box-sizing: border-box;
+	}
+
+	.menu__link {
+		display: block;
+	}
+
+	.menu-toggle {
+		display: block;
 	}
 
 	/****** STATISTICS *******/
