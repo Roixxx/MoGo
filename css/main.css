@@ -130,6 +130,25 @@ body {
 	bottom: -8px;
 }
 
+/******* MENU TOGGLE / CONDITION: ACTIVE *******/
+
+.menu-toggle.active 
+.menu-toggle__item {
+	background: none;
+}
+
+.menu-toggle.active 
+.menu-toggle__item::before {
+	transform-origin: left top;
+	transform: rotate(45deg);
+}
+
+.menu-toggle.active 
+.menu-toggle__item::after {
+	transform-origin: left bottom;
+	transform: rotate(-45deg);
+}
+
 /****** INTRO *******/
 
 .intro {
