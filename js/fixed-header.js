@@ -1,3 +1,6 @@
+
+/* Fixed Header */
+
 $(function() {
     var header = $("#header");
     var intorH = $("#intro").innerHeight();
