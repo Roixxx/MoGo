@@ -1360,6 +1360,10 @@ body {
 		background-color: #e78d84;
 	}
 
+	.menu__list.active {
+		display: block;
+	}
+
 	.menu__item {
 		display: block;
 		padding: 10px 20px;
@@ -1374,6 +1378,7 @@ body {
 	.menu-toggle {
 		display: block;
 	}
+
 
 	/****** STATISTICS *******/
 	.statistics__number {
