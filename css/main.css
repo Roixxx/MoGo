@@ -76,7 +76,8 @@ body {
 	transition: border 0.3s;
 }
 
-.menu__link:hover {
+.menu__link:hover,
+.menu__link.active {
 	color: #f8d65e;
 	padding-bottom: 10px;
 	border-bottom: 3px solid #f8d65e;
