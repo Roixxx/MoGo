@@ -504,13 +504,7 @@ body {
 	margin-bottom: 10px;
 }
 
-.accordion__item.active 
-.accordion__content {
-	display: block;
-}
-
-.accordion__item.active
-.accordion__header::after {
+.accordion__header.active::after {
 	transform: translateY(-15%) rotate(-45deg);
 } 
 

@@ -9,6 +9,7 @@ $(function() {
         var $this = $(this);
         var blockId = $this.data("collapse");
 
+        $this.toggleClass("active");
         $(blockId).slideToggle();
     });
 
