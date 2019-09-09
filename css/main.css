@@ -625,8 +625,9 @@ body {
 	background-color: #f38181;
 }
 
-.quote__btn,
 .slick-arrow {
+	display: block;
+	cursor: pointer;
 	font-size: 0;
 	color: transparent;
 	position: absolute;
@@ -635,7 +636,11 @@ body {
 	background: none;
 }
 
-.quote__btn::after {
+.slick-arrow:focus {
+	outline: none;
+}
+
+.slick-arrow::after {
     content: "";
     display: block;
     margin: 0 20px;
@@ -645,14 +650,13 @@ body {
     border-left: 5px solid #ccc;
 }
 
-.quote__btn--prev,
 .slick-prev {
+	z-index: 10;
 	left: 0;
 	transform: rotate(-45deg);
 }
 
-.quote__btn--next,
-.slick-prev {
+.slick-next {
 	right: 0;
 	transform: rotate(135deg);
 }
