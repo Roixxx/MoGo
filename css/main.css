@@ -586,8 +586,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-    min-height: 150px !important;
+    min-height: 150px;
 	margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
 	padding-left: 210px;
 	box-sizing: border-box;
 	background: url(../img/quote/qoute-icon.png) no-repeat;
@@ -623,11 +625,14 @@ body {
 	background-color: #f38181;
 }
 
-.quote__btn {
+.quote__btn,
+.slick-arrow {
 	font-size: 0;
 	color: transparent;
 	position: absolute;
 	top: 50%;
+	border: 0;
+	background: none;
 }
 
 .quote__btn::after {
@@ -640,12 +645,14 @@ body {
     border-left: 5px solid #ccc;
 }
 
-.quote__btn--prev {
+.quote__btn--prev,
+.slick-prev {
 	left: 0;
 	transform: rotate(-45deg);
 }
 
-.quote__btn--next {
+.quote__btn--next,
+.slick-prev {
 	right: 0;
 	transform: rotate(135deg);
 }
