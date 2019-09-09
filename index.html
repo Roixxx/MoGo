@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<script src="https://kit.fontawesome.com/7ec9601d7e.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<title>MoGo</title>
 </head>
 <body>
@@ -201,10 +201,18 @@
 		<div class="container container--quote">
 			<a class="quote__btn quote__btn--prev" href="#">Prev</a>
 			<a class="quote__btn quote__btn--next" href="#">Next</a>
-			<div class="quote__item">
-				<blockquote class="qoute__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</blockquote>
-				<cite class="quote__author">Jon Doe</cite>
+
+			<div data-slider>
+				<div class="quote__item">
+					<blockquote class="qoute__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</blockquote>
+					<cite class="quote__author">Jon Doe</cite>
+				</div>
+				<div class="quote__item">
+					<blockquote class="qoute__text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</blockquote>
+					<cite class="quote__author">Jon Lye</cite>
+				</div>
 			</div>
+
 		</div>
 	</div>
 
@@ -623,9 +631,12 @@
 		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/7ec9601d7e.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/fixed-header.js"></script>
 	<script src="js/smooth-scroll.js"></script>
 	<script src="js/menu-toggle.js"></script>
 	<script src="js/accordion-collapse.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 </html>
