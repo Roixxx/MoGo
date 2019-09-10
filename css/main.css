@@ -593,6 +593,7 @@ body {
 	padding-left: 210px;
 	box-sizing: border-box;
 	background: url(../img/quote/qoute-icon.png) no-repeat;
+	outline: none;
 }
 
 .qoute__text {
@@ -631,12 +632,14 @@ body {
 	font-size: 0;
 	color: transparent;
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	border: 0;
 	background: none;
+	height: 65px;
 }
 
-.slick-arrow:focus {
+.slick-arrow:focus,
+.slick-slide:focus {
 	outline: none;
 }
 
