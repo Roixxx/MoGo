@@ -1350,15 +1350,6 @@ body {
 	.footer-inst {
 		width: 45%;
 	}
-
-	/******* SLIDER *******/
-	.slick-prev {
-
-	}
-
-	.slick-next {
-
-	}
 }
 
 @media (max-width: 768px) {	
