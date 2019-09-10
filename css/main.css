@@ -1462,10 +1462,12 @@ body {
 	.testimonial__img {
 		width: 150px;
 		height: 150px;
+		margin-right: 0;
 	}
 
 	.testimonial__item {
 		flex-direction: column;
+		padding: 0;
 	}
 
 	/****** statistics *******/
