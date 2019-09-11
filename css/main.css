@@ -343,6 +343,7 @@ body {
 }
 
 .statistics__number {
+	opacity: 0;
 	font-weight: 700;
 	font-size: 72px;
 }

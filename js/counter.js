@@ -1,30 +1,23 @@
-var timeout = 1,
-    counters = $('.counter');
-counters.each(function(){
-  var that = $(this),
-      num = that.html();
-  that.html(0);
-  that.attr('data-num',num);
-});
-$(window).on('scroll', function(){
-  var scrolltop = $(this).scrollTop(),
-      wh = $(this).height();
-  counters.each(function(){
-    var that = $(this);
-    if (!that.data('start') && scrolltop >= that.offset().top - wh) {
-      that.attr('data-start', true);
-      var i = 1,
-        num = that.data('num'),
-        step = Math.round(1000 * timeout / num),
-        int = setInterval(function(){
-          if (i <= num) {
-            that.html(i);
-          }
-          else {
-            clearInterval(int);
-          }
-          i++;
-      },step);
-    }
-  });
+$(document).ready(function () {
+
+    var show = true;
+    var countbox = ".statistics__list";
+    $(window).on("scroll load resize", function () {
+        if (!show) return false; // Отменяем показ анимации, если она уже была выполнена
+        var w_top = $(window).scrollTop(); // Количество пикселей на которое была прокручена страница
+        var e_top = $(countbox).offset().top; // Расстояние от блока со счетчиками до верха всего документа
+        var w_height = $(window).height(); // Высота окна браузера
+        var d_height = $(document).height(); // Высота всего документа
+        var e_height = $(countbox).outerHeight(); // Полная высота блока со счетчиками
+        if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
+            $('.statistics__number').css('opacity', '1');
+            $('.statistics__number').spincrement({
+                thousandSeparator: "",
+                duration: 2200
+            });
+
+            show = false;
+        }
+    });
+
 });
