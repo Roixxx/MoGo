@@ -900,6 +900,7 @@ body {
 	width: 210px;
 	height: 210px;
 	margin-right: 30px;
+	object-fit: cover;
 }
 
 .testimonial__text {
