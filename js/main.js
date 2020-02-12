@@ -9,7 +9,8 @@ $(function() {
 
     $(window).on("scroll", function() {
         scrollOffset = $(this).scrollTop();
-        checkScroll(scrollOffset)
+        checkScroll(scrollOffset);
+        
     });
 
     function checkScroll(scrollOffset) {
@@ -87,7 +88,7 @@ $(function() {
 
 $(function() {
     $("[data-slider]").slick({
-        infinite: true,
+        infinite: false,
         fade: false,
         slidesToShow: 1,
         slidesToScroll: 1,
