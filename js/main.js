@@ -84,6 +84,19 @@ $(function() {
     });
 });
 
+body.onclick = function(event) {
+    let target = event.target;
+    
+    if (!menu__list.classList.contains('active')) return;
+    if (target.closest('menu__item')) return;
+    if (target.closest('.menu-toggle')) return;
+    if (target == menu) return;
+
+    $("#menu-toggle").removeClass("active");  
+    $("#menu__list").removeClass("active");
+}
+
+
 /* Slider*/
 
 $(function() {
