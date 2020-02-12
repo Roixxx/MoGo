@@ -627,6 +627,10 @@ body {
 	background-color: #f38181;
 }
 
+.slick-slide {
+	cursor: pointer;
+}
+
 .slick-arrow {
 	display: block;
 	cursor: pointer;
