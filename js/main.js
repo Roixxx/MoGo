@@ -1,9 +1,9 @@
 /* Fixed Header */
 
 $(function() {
-    var header = $("#header");
-    var intorH = $("#intro").innerHeight();
-    var scrollOffset = $(window).scrollTop();
+    let header = $("#header");
+    let intorH = $("#intro").innerHeight();
+    let scrollOffset = $(window).scrollTop();
 
     checkScroll(scrollOffset);
 
@@ -26,31 +26,29 @@ $(function() {
 /* accordion collapse */
 
 $(function() {
-
     $("[data-collapse]").on("click", function(event) {
         event.preventDefault();
 
-        var $this = $(this);
-        var blockId = $this.data("collapse");
+        let $this = $(this);
+        let blockId = $this.data("collapse");
 
         $this.toggleClass("active");
         $(blockId).slideToggle();
     });
-
 });
 
 /* Counter */
 
 $(document).ready(function () {
-    var show = true;
-    var countbox = ".statistics__list";
+    let show = true;
+    let countbox = ".statistics__list";
     $(window).on("scroll load resize", function () {
         if (!show) return false;
-        var w_top = $(window).scrollTop(); 
-        var e_top = $(countbox).offset().top; 
-        var w_height = $(window).height(); 
-        var d_height = $(document).height(); 
-        var e_height = $(countbox).outerHeight(); 
+        let w_top = $(window).scrollTop(); 
+        let e_top = $(countbox).offset().top; 
+        let w_height = $(window).height(); 
+        let d_height = $(document).height(); 
+        let e_height = $(countbox).outerHeight(); 
         if (w_top + 500 >= e_top || w_height + w_top == d_height || e_height + e_top < w_height) {
             $('.statistics__number').css('opacity', '1');
             $('.statistics__number').spincrement({
@@ -66,14 +64,12 @@ $(document).ready(function () {
 /* menu-toggle */
 
 $(function() {
-
     $("#menu-toggle").on("click", function(event) {
         event.preventDefault();
 
         $(this).toggleClass("active");
         $("#menu__list").toggleClass("active");
     });
-
 });
 
 /* auto close the menu when you click on the link*/
@@ -105,9 +101,9 @@ $(function() {
 
         event.preventDefault();
 
-        var $this = $(this);
-        var blockId = $this.data("scroll");
-        var blockOffset = $(blockId).offset().top;
+        let $this = $(this);
+        let blockId = $this.data("scroll");
+        let blockOffset = $(blockId).offset().top;
 
         $("#menu__list a").removeClass("active");
         $this.addClass("active");
