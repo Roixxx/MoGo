@@ -73,7 +73,7 @@ $(function() {
     });
 });
 
-/* auto close the menu when you click on the link*/
+/* auto close the menu when you click on the link or past the menu*/
 
 $(function() {
     $("#menu__list a").on("click", function(event){
