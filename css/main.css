@@ -585,7 +585,7 @@ body {
 .quote__item {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+
     min-height: 150px;
 	margin: 0 auto;
 	max-width: 960px;
